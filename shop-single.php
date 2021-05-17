@@ -1,5 +1,6 @@
 <?php
-    $title = "Product Detail";
+    include("setting.php");
+    $title = $siteName . " : Single Product";
     $page = 4;
 ?>
 <!DOCTYPE html>

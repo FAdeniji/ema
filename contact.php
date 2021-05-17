@@ -1,5 +1,6 @@
 <?php
-    $title = "Contact";
+    include("setting.php");
+    $title = $siteName . " : Contact Us";
     $page = 5;
 ?>
 <!DOCTYPE html>

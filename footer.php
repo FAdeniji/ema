@@ -4,7 +4,7 @@
         <div class="row">
 
             <div class="col-md-4 pt-5">
-                <h2 class="h2 text-success border-bottom pb-3 border-light logo">EMA Rentals</h2>
+                <h2 class="h2 text-success border-bottom pb-3 border-light logo"><?php echo $siteName; ?></h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li>
                         <i class="fas fa-map-marker-alt fa-fw"></i>
@@ -37,11 +37,11 @@
             <div class="col-md-4 pt-5">
                 <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="#">Home</a></li>
-                    <li><a class="text-decoration-none" href="#">About Us</a></li>
-                    <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
-                    <li><a class="text-decoration-none" href="#">FAQs</a></li>
-                    <li><a class="text-decoration-none" href="#">Contact</a></li>
+                    <li><a class="text-decoration-none" href="index.php">Home</a></li>
+                    <li><a class="text-decoration-none" href="about.php">About Us</a></li>
+                    <li><a class="text-decoration-none" href="contact.php">Shop Locations</a></li>
+                    <li><a class="text-decoration-none" href="faq.php">FAQs</a></li>
+                    <li><a class="text-decoration-none" href="contact.php">Contact</a></li>
                 </ul>
             </div>
 

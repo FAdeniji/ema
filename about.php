@@ -1,3 +1,8 @@
+<?php
+    include("setting.php");
+    $title = $title = $siteName . " : About Us";;
+    $page = 2;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
