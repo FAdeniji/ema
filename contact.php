@@ -2,6 +2,21 @@
     include("setting.php");
     $title = $siteName . " : Contact Us";
     $page = 5;
+
+    if(!empty($_POST["send"])) {
+        $name = $_POST["userName"];
+        $email = $_POST["userEmail"];
+        $subject = $_POST["subject"];
+        $content = $_POST["content"];
+    
+        // $toEmail = "info@emarentals.com";
+        $toEmail = "adefolarin.adeniji@gmail.com";
+        $mailHeaders = "From: " . $name . "<". $email .">\r\n";
+        if(mail($toEmail, $subject, $content, $mailHeaders)) {
+            $message = "Your contact information was sent successfully.";
+            $type = "success";
+        }
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -65,33 +80,98 @@
     <!-- Start Contact -->
     <div class="container py-5">
         <div class="row py-5">
-            <form class="col-md-9 m-auto" method="post" role="form">
-                <div class="row">
-                    <div class="form-group col-md-6 mb-3">
-                        <label for="inputname">Name</label>
-                        <input type="text" class="form-control mt-1" id="name" name="name" placeholder="Name">
-                    </div>
-                    <div class="form-group col-md-6 mb-3">
-                        <label for="inputemail">Email</label>
-                        <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Email">
-                    </div>
+            <div id="statusMessage"> 
+                <?php
+                if (! empty($message)) {
+                    ?>
+                    <p class='text-success <?php echo $type; ?>Message'><?php echo $message; ?></p>
+
+                    <script>
+                        window.scrollTo(0, 800);
+                    </script>
+                <?php
+                }
+                ?>
+            </div>
+            <form name="frmContact" id="" frmContact="" method="post"
+                action="" enctype="multipart/form-data"
+                onsubmit="return validateContactForm()">
+            
+                <div class="input-row">
+                    <label style="padding-top: 20px;">Name</label> <span
+                        id="userName-info" class="info"></span><br /> <input
+                        type="text" class="input-field form-control mt-1" name="userName"
+                        id="userName" />
                 </div>
-                <div class="mb-3">
-                    <label for="inputsubject">Subject</label>
-                    <input type="text" class="form-control mt-1" id="subject" name="subject" placeholder="Subject">
+                <div class="input-row">
+                    <label>Email</label> <span id="userEmail-info"
+                        class="info"></span><br /> <input type="text"
+                        class="input-field form-control mt-1" name="userEmail" id="userEmail" />
                 </div>
-                <div class="mb-3">
-                    <label for="inputmessage">Message</label>
-                    <textarea class="form-control mt-1" id="message" name="message" placeholder="Message" rows="8"></textarea>
+                <div class="input-row">
+                    <label>Subject</label> <span id="subject-info"
+                        class="info"></span><br /> <input type="text"
+                        class="input-field form-control mt-1" name="subject" id="subject" />
                 </div>
-                <div class="row">
+                <div class="input-row">
+                    <label>Message</label> <span id="userMessage-info"
+                        class="info"></span><br />
+                    <textarea name="content" id="content"
+                        class="input-field form-control mt-1" cols="60" rows="6"></textarea>
+                </div>
+                    <div class="row">
                     <div class="col text-end mt-2">
-                        <button type="submit" class="btn btn-success btn-lg px-3">Let’s Talk</button>
+                    <input type="submit" name="send" class="btn-submit"
+                        value="Send" />
                     </div>
                 </div>
             </form>
             
         </div>
+
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"
+        type="text/javascript"></script>
+        <script type="text/javascript">
+            function validateContactForm() {
+                var valid = true;
+
+                $(".info").html("");
+                $(".input-field").css('border', '#e0dfdf 1px solid');
+                var userName = $("#userName").val();
+                var userEmail = $("#userEmail").val();
+                var subject = $("#subject").val();
+                var content = $("#content").val();
+                
+                if (userName == "") {
+                    $("#userName-info").html("Required.");
+                    $("#userName").css('border', '#e66262 1px solid');
+                    valid = false;
+                }
+                if (userEmail == "") {
+                    $("#userEmail-info").html("Required.");
+                    $("#userEmail").css('border', '#e66262 1px solid');
+                    valid = false;
+                }
+                if (!userEmail.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/))
+                {
+                    $("#userEmail-info").html("Invalid Email Address.");
+                    $("#userEmail").css('border', '#e66262 1px solid');
+                    valid = false;
+                }
+
+                if (subject == "") {
+                    $("#subject-info").html("Required.");
+                    $("#subject").css('border', '#e66262 1px solid');
+                    valid = false;
+                }
+                if (content == "") {
+                    $("#userMessage-info").html("Required.");
+                    $("#content").css('border', '#e66262 1px solid');
+                    valid = false;
+                }
+                return valid;
+            }
+        </script>
 
         <h1 class="h1">Important Information</h1>
         <p>You can call us on (+234) 803 300 0122 | (+234) 805 745 4799 to place your order today.</p>
