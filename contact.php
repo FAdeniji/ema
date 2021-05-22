@@ -9,8 +9,7 @@
         $subject = $_POST["subject"];
         $content = $_POST["content"];
     
-        // $toEmail = "info@emarentals.com";
-        $toEmail = "adefolarin.adeniji@gmail.com";
+        $toEmail = "info@emarentals.com";
         $mailHeaders = "From: " . $name . "<". $email .">\r\n";
         if(mail($toEmail, $subject, $content, $mailHeaders)) {
             $message = "Your contact information was sent successfully.";

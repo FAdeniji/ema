@@ -9,7 +9,7 @@
     $products[0]->DisplayName = 'ARMLESS PLASTIC CHAIRS';
     $products[0]->ShortDescription = 'A plastic chair with no arm support';
     $products[0]->LongDesription = 'This type of chair can be used both indoors and outdoors. If you have an indoor event and space is an issue, then these chairs can come in handy.';
-    $products[0]->UnitPrice = 500;
+    $products[0]->UnitPrice = "500.00";
     $products[0]->UnitNumber = 12;
     $products[0]->IsActive = true;
     $products[0]->Rating = 4;
@@ -24,7 +24,7 @@
     $products[1]->DisplayName = 'ROYAL PLASTIC CHAIRS';
     $products[1]->ShortDescription = 'A plastic chair with arm support';
     $products[1]->LongDesription = 'This type of chair can be used both indoors and outdoors. If you have an indoor or outdoor event and require your guests to sit for a lengthy period, then these chairs can come in handy.';
-    $products[1]->UnitPrice = 550;
+    $products[1]->UnitPrice = "550.00";
     $products[1]->UnitNumber = 12;
     $products[1]->IsActive = true;
     $products[1]->Rating = 4;
@@ -39,7 +39,7 @@
     $products[2]->DisplayName = 'CHIVALRY CHAIRS';
     $products[2]->ShortDescription = 'A plastic chair with no arm support';
     $products[2]->LongDesription = 'Chiavaris have become the most popular choice for elegant, special event seating due to their use at large-scale formal events such as the Oscars and high-profile celebrity weddings. These days every bride wishes to seat her guests in this perfect event chair.';
-    $products[2]->UnitPrice = 3000;
+    $products[2]->UnitPrice = "3, 000.00";
     $products[2]->UnitNumber = 12;
     $products[2]->IsActive = true;
     $products[2]->Rating = 4;
@@ -54,7 +54,7 @@
     $products[3]->DisplayName = 'BIG ROYAL CANOPY';
     $products[3]->ShortDescription = 'A water-proof tent used to shield guests from rain or sun.';
     $products[3]->LongDesription = 'High-quality materials and individual equipment deliver a classy appearance. The Royal Package combines functionality and stylish design with maximum comfort. Our elegant canopy tent creates a unique atmosphere within minutes.';
-    $products[3]->UnitPrice = 5000;
+    $products[3]->UnitPrice = "5, 000.00";
     $products[3]->UnitNumber = 1;
     $products[3]->IsActive = true;
     $products[3]->Rating = 4;
@@ -69,7 +69,7 @@
     $products[4]->DisplayName = 'SMALL ROYAL CANOPY';
     $products[4]->ShortDescription = 'A water-proof tent used to shield guests from rain or sun.';
     $products[4]->LongDesription = 'High-quality materials and individual equipment deliver a classy appearance. The Royal Package combines functionality and stylish design with maximum comfort. Our elegant canopy tent creates a unique atmosphere within minutes.';
-    $products[4]->UnitPrice = 3000;
+    $products[4]->UnitPrice = "3, 000.00";
     $products[4]->UnitNumber = 1;
     $products[4]->IsActive = true;
     $products[4]->Rating = 4;
@@ -84,7 +84,7 @@
     $products[5]->DisplayName = 'EXTRA LARGE CANOPY';
     $products[5]->ShortDescription = 'A water-proof tent used to shield guests from rain or sun.';
     $products[5]->LongDesription = 'High-quality materials and individual equipment deliver a classy appearance. The Royal Package combines functionality and stylish design with maximum comfort. Our elegant canopy tent creates a unique atmosphere within minutes.';
-    $products[5]->UnitPrice = 12000;
+    $products[5]->UnitPrice = "12, 000.00";
     $products[5]->UnitNumber = 1;
     $products[5]->IsActive = true;
     $products[5]->Rating = 4;
@@ -99,7 +99,7 @@
     $products[6]->DisplayName = 'SMALLEST TENT';
     $products[6]->ShortDescription = 'A tent used to shield guests from sun.';
     $products[6]->LongDesription = 'High-quality materials and individual equipment deliver a classy appearance. The Tents combines functionality and stylish design with maximum comfort. Our elegant tent creates a unique atmosphere within minutes.';
-    $products[6]->UnitPrice = 3000;
+    $products[6]->UnitPrice = "3, 000.00";
     $products[6]->UnitNumber = 1;
     $products[6]->IsActive = true;
     $products[6]->Rating = 4;
@@ -114,7 +114,7 @@
     $products[7]->DisplayName = 'SMALL TENT';
     $products[7]->ShortDescription = 'A tent used to shield guests from sun.';
     $products[7]->LongDesription = 'High-quality materials and individual equipment deliver a classy appearance. The Tents combines functionality and stylish design with maximum comfort. Our elegant tent creates a unique atmosphere within minutes.';
-    $products[7]->UnitPrice = 5000;
+    $products[7]->UnitPrice = "5, 000.00";
     $products[7]->UnitNumber = 1;
     $products[7]->IsActive = true;
     $products[7]->Rating = 4;
@@ -129,7 +129,7 @@
     $products[8]->DisplayName = 'MEDIUM TENT';
     $products[8]->ShortDescription = 'A tent used to shield guests from sun.';
     $products[8]->LongDesription = 'High-quality materials and individual equipment deliver a classy appearance. The Tents combines functionality and stylish design with maximum comfort. Our elegant tent creates a unique atmosphere within minutes.';
-    $products[8]->UnitPrice = 10000;
+    $products[8]->UnitPrice = "10, 000.00";
     $products[8]->UnitNumber = 1;
     $products[8]->IsActive = true;
     $products[8]->Rating = 4;
@@ -144,7 +144,7 @@
     $products[9]->DisplayName = 'BIG TENT';
     $products[9]->ShortDescription = 'A tent used to shield guests from sun.';
     $products[9]->LongDesription = 'High-quality materials and individual equipment deliver a classy appearance. The Tents combines functionality and stylish design with maximum comfort. Our elegant tent creates a unique atmosphere within minutes.';
-    $products[9]->UnitPrice = 12500;
+    $products[9]->UnitPrice = "12, 500.00";
     $products[9]->UnitNumber = 1;
     $products[9]->IsActive = true;
     $products[9]->Rating = 4;
@@ -159,7 +159,7 @@
     $products[10]->DisplayName = 'LARGE TENT';
     $products[10]->ShortDescription = 'A tent used to shield guests from sun.';
     $products[10]->LongDesription = 'High-quality materials and individual equipment deliver a classy appearance. The Tents combines functionality and stylish design with maximum comfort. Our elegant tent creates a unique atmosphere within minutes.';
-    $products[10]->UnitPrice = 15000;
+    $products[10]->UnitPrice = "15, 000.00";
     $products[10]->UnitNumber = 1;
     $products[10]->IsActive = true;
     $products[10]->Rating = 4;
@@ -174,7 +174,7 @@
     $products[11]->DisplayName = 'LARGE TENT';
     $products[11]->ShortDescription = 'A tent used to shield guests from sun.';
     $products[11]->LongDesription = 'High-quality materials and individual equipment deliver a classy appearance. The Tents combines functionality and stylish design with maximum comfort. Our elegant tent creates a unique atmosphere within minutes.';
-    $products[11]->UnitPrice = 15000;
+    $products[11]->UnitPrice = "15, 000.00";
     $products[11]->UnitNumber = 1;
     $products[11]->IsActive = true;
     $products[11]->Rating = 4;
@@ -189,7 +189,7 @@
     $products[12]->DisplayName = 'LARGE TENT';
     $products[12]->ShortDescription = 'A tent used to shield guests from sun.';
     $products[12]->LongDesription = 'High-quality materials and individual equipment deliver a classy appearance. The Tents combines functionality and stylish design with maximum comfort. Our elegant tent creates a unique atmosphere within minutes.';
-    $products[12]->UnitPrice = 60000;
+    $products[12]->UnitPrice = "60, 000.00";
     $products[12]->UnitNumber = 1;
     $products[12]->IsActive = true;
     $products[12]->Rating = 4;
@@ -204,7 +204,7 @@
     $products[13]->DisplayName = 'GIANT TENT';
     $products[13]->ShortDescription = 'A tent used to shield guests from sun.';
     $products[13]->LongDesription = 'High-quality materials and individual equipment deliver a classy appearance. The Tents combines functionality and stylish design with maximum comfort. Our elegant tent creates a unique atmosphere within minutes.';
-    $products[13]->UnitPrice = 180000;
+    $products[13]->UnitPrice = "180, 000.00";
     $products[13]->UnitNumber = 1;
     $products[13]->IsActive = true;
     $products[13]->Rating = 4;
@@ -219,7 +219,7 @@
     $products[14]->DisplayName = 'GIANT TENT';
     $products[14]->ShortDescription = 'A tent used to shield guests from sun.';
     $products[14]->LongDesription = 'High-quality materials and individual equipment deliver a classy appearance. The Tents combines functionality and stylish design with maximum comfort. Our elegant tent creates a unique atmosphere within minutes.';
-    $products[14]->UnitPrice = 180000;
+    $products[14]->UnitPrice = "180, 000.00";
     $products[14]->UnitNumber = 1;
     $products[14]->IsActive = true;
     $products[14]->Rating = 4;
@@ -234,7 +234,7 @@
     $products[15]->DisplayName = 'BANQUET TABLE';
     $products[15]->ShortDescription = 'Banquet table';
     $products[15]->LongDesription = 'Banquet table is designed for light-duty use indoors or outdoors.';
-    $products[15]->UnitPrice = 1000;
+    $products[15]->UnitPrice = "1, 000.00";
     $products[15]->UnitNumber = 1;
     $products[15]->IsActive = true;
     $products[15]->Rating = 4;
@@ -249,7 +249,7 @@
     $products[16]->DisplayName = 'PLASTIC TABLE (DOUBLE)';
     $products[16]->ShortDescription = 'Plastic table';
     $products[16]->LongDesription = 'Plastic table is designed for light-duty use indoors or outdoors.';
-    $products[16]->UnitPrice = 500;
+    $products[16]->UnitPrice = "500.00";
     $products[16]->UnitNumber = 1;
     $products[16]->IsActive = true;
     $products[16]->Rating = 4;
@@ -264,7 +264,7 @@
     $products[17]->DisplayName = 'PLASTIC TABLE (SINGLE)';
     $products[17]->ShortDescription = 'Plastic table';
     $products[17]->LongDesription = 'Plastic table is designed for light-duty use indoors or outdoors.';
-    $products[17]->UnitPrice = 400;
+    $products[17]->UnitPrice = "400.00";
     $products[17]->UnitNumber = 1;
     $products[17]->IsActive = true;
     $products[17]->Rating = 4;
@@ -279,7 +279,7 @@
     $products[18]->DisplayName = 'METAL DRUM';
     $products[18]->ShortDescription = 'Metal Drum';
     $products[18]->LongDesription = 'Your event will not be complete without cold drinks for your guests. Lets provide you with a way to keep the drinks cold.';
-    $products[18]->UnitPrice = 500;
+    $products[18]->UnitPrice = "500.00";
     $products[18]->UnitNumber = 1;
     $products[18]->IsActive = true;
     $products[18]->Rating = 4;
