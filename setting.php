@@ -15,7 +15,7 @@
     $products[0]->Rating = 4;
     $products[0]->PictureUrl = 'assets/products/armless.jpeg';
     $products[0]->AvailableColours = "White / Red / Blue";
-    $products[0]->Size = "White";
+    $products[0]->Size = "Not Applicable";
     $products[0]->Capacity = 1;
     $products[0]->Category = "Chairs";
 
@@ -43,7 +43,7 @@
     $products[2]->UnitNumber = 12;
     $products[2]->IsActive = true;
     $products[2]->Rating = 4;
-    $products[2]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[2]->PictureUrl = 'assets/products/chiavari.jpeg';
     $products[2]->AvailableColours = "Gold";
     $products[2]->Size = "Not Applicable";
     $products[2]->Capacity = 1;
@@ -58,7 +58,7 @@
     $products[3]->UnitNumber = 1;
     $products[3]->IsActive = true;
     $products[3]->Rating = 4;
-    $products[3]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[3]->PictureUrl = 'assets/products/large-royale.jpeg';
     $products[3]->AvailableColours = "White";
     $products[3]->Size = "60";
     $products[3]->Capacity = "20” X 12”";
@@ -73,7 +73,7 @@
     $products[4]->UnitNumber = 1;
     $products[4]->IsActive = true;
     $products[4]->Rating = 4;
-    $products[4]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[4]->PictureUrl = 'assets/products/single-royale-canopy.jpeg';
     $products[4]->AvailableColours = "White";
     $products[4]->Size = "20";
     $products[4]->Capacity = "12” X 10”";
@@ -88,7 +88,7 @@
     $products[5]->UnitNumber = 1;
     $products[5]->IsActive = true;
     $products[5]->Rating = 4;
-    $products[5]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[5]->PictureUrl = 'assets/products/double-royale-canopy.jpeg';
     $products[5]->AvailableColours = "White";
     $products[5]->Size = "120";
     $products[5]->Capacity = "20” X 40”";
@@ -103,7 +103,7 @@
     $products[6]->UnitNumber = 1;
     $products[6]->IsActive = true;
     $products[6]->Rating = 4;
-    $products[6]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[6]->PictureUrl = 'assets/products/single-tent.png';
     $products[6]->AvailableColours = "White";
     $products[6]->Size = "Not Applicable";
     $products[6]->Capacity = "10” X 10”";
@@ -118,7 +118,7 @@
     $products[7]->UnitNumber = 1;
     $products[7]->IsActive = true;
     $products[7]->Rating = 4;
-    $products[7]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[7]->PictureUrl = 'assets/products/single-tent.png';
     $products[7]->AvailableColours = "White";
     $products[7]->Size = "24";
     $products[7]->Capacity = "15” X 15”";
@@ -133,7 +133,7 @@
     $products[8]->UnitNumber = 1;
     $products[8]->IsActive = true;
     $products[8]->Rating = 4;
-    $products[8]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[8]->PictureUrl = 'assets/products/large-tent.jpeg';
     $products[8]->AvailableColours = "White";
     $products[8]->Size = "72";
     $products[8]->Capacity = "24” X 12”";
@@ -148,7 +148,7 @@
     $products[9]->UnitNumber = 1;
     $products[9]->IsActive = true;
     $products[9]->Rating = 4;
-    $products[9]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[9]->PictureUrl = 'assets/products/large-tent.jpeg';
     $products[9]->AvailableColours = "White";
     $products[9]->Size = "96";
     $products[9]->Capacity = "30” X 15”";
@@ -163,7 +163,7 @@
     $products[10]->UnitNumber = 1;
     $products[10]->IsActive = true;
     $products[10]->Rating = 4;
-    $products[10]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[10]->PictureUrl = 'assets/products/large-tent.jpeg';
     $products[10]->AvailableColours = "White";
     $products[10]->Size = "100";
     $products[10]->Capacity = "45” X 15”";
@@ -178,7 +178,7 @@
     $products[11]->UnitNumber = 1;
     $products[11]->IsActive = true;
     $products[11]->Rating = 4;
-    $products[11]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[11]->PictureUrl = 'assets/products/large-tent.jpeg';
     $products[11]->AvailableColours = "White";
     $products[11]->Size = "180 SEATS WITHOUT TABLES";
     $products[11]->Capacity = "45” X 20”";
@@ -193,7 +193,7 @@
     $products[12]->UnitNumber = 1;
     $products[12]->IsActive = true;
     $products[12]->Rating = 4;
-    $products[12]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[12]->PictureUrl = 'assets/products/large-tent.jpeg';
     $products[12]->AvailableColours = "White";
     $products[12]->Size = "320 SEATS WITH TABLES, 400 SEATS WITHOUT TABLES";
     $products[12]->Capacity = "60” X 40”";
@@ -208,7 +208,7 @@
     $products[13]->UnitNumber = 1;
     $products[13]->IsActive = true;
     $products[13]->Rating = 4;
-    $products[13]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[13]->PictureUrl = 'assets/products/large-tent.jpeg';
     $products[13]->AvailableColours = "White";
     $products[13]->Size = "800 SEATS WITH TABLES";
     $products[13]->Capacity = "100” X 50”";
@@ -223,7 +223,7 @@
     $products[14]->UnitNumber = 1;
     $products[14]->IsActive = true;
     $products[14]->Rating = 4;
-    $products[14]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[14]->PictureUrl = 'assets/products/large-tent.jpeg';
     $products[14]->AvailableColours = "White";
     $products[14]->Size = "1000 SEATS WITHOUT TABLES";
     $products[14]->Capacity = "100” X 50”";
@@ -238,7 +238,7 @@
     $products[15]->UnitNumber = 1;
     $products[15]->IsActive = true;
     $products[15]->Rating = 4;
-    $products[15]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[15]->PictureUrl = 'assets/products/banquet-table.jpeg';
     $products[15]->AvailableColours = "White";
     $products[15]->Size = "Not Applicable";
     $products[15]->Capacity = "Not Applicable";
@@ -253,7 +253,7 @@
     $products[16]->UnitNumber = 1;
     $products[16]->IsActive = true;
     $products[16]->Rating = 4;
-    $products[16]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[16]->PictureUrl = 'assets/products/double-table.jpeg';
     $products[16]->AvailableColours = "White";
     $products[16]->Size = "Not Applicable";
     $products[16]->Capacity = "6 SEATS";
@@ -268,7 +268,7 @@
     $products[17]->UnitNumber = 1;
     $products[17]->IsActive = true;
     $products[17]->Rating = 4;
-    $products[17]->PictureUrl = 'assets/products/royale.jpeg';
+    $products[17]->PictureUrl = 'assets/products/single-table.jpeg';
     $products[17]->AvailableColours = "White";
     $products[17]->Size = "Not Applicable";
     $products[17]->Capacity = "4 SEATS";

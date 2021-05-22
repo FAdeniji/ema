@@ -62,7 +62,7 @@
                                     </div>
                                 </div>
                                 <div class="card-body">
-                                    <a href="shop-single.php" class="h3 text-decoration-none">' . $product->ProductName . '</a>
+                                    <a href="shop-single.php?id=' . $product->Id . '" class="h3 text-decoration-none">' . $product->ProductName . '</a>
                                     <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                         <li class="pt-2">
                                             <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
@@ -72,16 +72,7 @@
                                             <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
                                         </li>
                                     </ul>
-                                    <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                        <li>
-                                            <i class="text-warning fa fa-star"></i>
-                                            <i class="text-warning fa fa-star"></i>
-                                            <i class="text-warning fa fa-star"></i>
-                                            <i class="text-muted fa fa-star"></i>
-                                            <i class="text-muted fa fa-star"></i>
-                                        </li>
-                                    </ul>
-                                    <p class="text-center mb-0">N' . $product->UnitPrice . '</p>
+                                    <p class="text-left mb-0">N' . $product->UnitPrice . '</p>
                                 </div>
                             </div>
                         </div>
