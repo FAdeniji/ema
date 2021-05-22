@@ -60,7 +60,7 @@
     $products[3]->Rating = 4;
     $products[3]->PictureUrl = 'assets/products/large-royale.jpeg';
     $products[3]->AvailableColours = "White";
-    $products[3]->Size = "60";
+    $products[3]->Size = "60 SEATS";
     $products[3]->Capacity = "20” X 12”";
     $products[3]->Category = "Canopies";
 
@@ -75,7 +75,7 @@
     $products[4]->Rating = 4;
     $products[4]->PictureUrl = 'assets/products/single-royale-canopy.jpeg';
     $products[4]->AvailableColours = "White";
-    $products[4]->Size = "20";
+    $products[4]->Size = "20 SEATS";
     $products[4]->Capacity = "12” X 10”";
     $products[4]->Category = "Canopies";
 
@@ -90,7 +90,7 @@
     $products[5]->Rating = 4;
     $products[5]->PictureUrl = 'assets/products/double-royale-canopy.jpeg';
     $products[5]->AvailableColours = "White";
-    $products[5]->Size = "120";
+    $products[5]->Size = "120 SEATS";
     $products[5]->Capacity = "20” X 40”";
     $products[5]->Category = "Canopies";
 
@@ -120,7 +120,7 @@
     $products[7]->Rating = 4;
     $products[7]->PictureUrl = 'assets/products/single-tent.png';
     $products[7]->AvailableColours = "White";
-    $products[7]->Size = "24";
+    $products[7]->Size = "24 SEATS";
     $products[7]->Capacity = "15” X 15”";
     $products[7]->Category = "Tents";
 
@@ -135,7 +135,7 @@
     $products[8]->Rating = 4;
     $products[8]->PictureUrl = 'assets/products/large-tent.jpeg';
     $products[8]->AvailableColours = "White";
-    $products[8]->Size = "72";
+    $products[8]->Size = "72 SEATS";
     $products[8]->Capacity = "24” X 12”";
     $products[8]->Category = "Tents";
 
@@ -150,7 +150,7 @@
     $products[9]->Rating = 4;
     $products[9]->PictureUrl = 'assets/products/large-tent.jpeg';
     $products[9]->AvailableColours = "White";
-    $products[9]->Size = "96";
+    $products[9]->Size = "96 SEATS";
     $products[9]->Capacity = "30” X 15”";
     $products[9]->Category = "Tents";
 
@@ -165,7 +165,7 @@
     $products[10]->Rating = 4;
     $products[10]->PictureUrl = 'assets/products/large-tent.jpeg';
     $products[10]->AvailableColours = "White";
-    $products[10]->Size = "100";
+    $products[10]->Size = "100 SEATS";
     $products[10]->Capacity = "45” X 15”";
     $products[10]->Category = "Tents";
 
@@ -273,6 +273,21 @@
     $products[17]->Size = "Not Applicable";
     $products[17]->Capacity = "4 SEATS";
     $products[17]->Category = "Tables";
+
+    $products[18]->Id = 19;
+    $products[18]->ProductName = 'METAL DRUM';
+    $products[18]->DisplayName = 'METAL DRUM';
+    $products[18]->ShortDescription = 'Metal Drum';
+    $products[18]->LongDesription = 'Your event will not be complete without cold drinks for your guests. Lets provide you with a way to keep the drinks cold.';
+    $products[18]->UnitPrice = 500;
+    $products[18]->UnitNumber = 1;
+    $products[18]->IsActive = true;
+    $products[18]->Rating = 4;
+    $products[18]->PictureUrl = 'assets/products/drum.jpeg';
+    $products[18]->AvailableColours = "Blue";
+    $products[18]->Size = "Not Applicable";
+    $products[18]->Capacity = "Not Applicable";
+    $products[18]->Category = "Drums";
 
     // echo '<pre>'; print_r($products); echo '</pre>';
 

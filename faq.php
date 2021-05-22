@@ -135,6 +135,17 @@
             </ul>
         </div>
 
+        <input type="checkbox" id="title5" />
+        <label for="title4">Table clothes</label>
+
+        <div class="content">
+            <ul>
+                <li>SMALL SIZE - N250.00 EACH</li>        
+                <li>BIG SIZE - N500.00 EACH</li>
+                <li>BANQUET TABLE COVERS - N1,000.00 EACH</li>
+            </ul>
+        </div>
+
     </div>
     <!-- End Contact -->
 

@@ -90,7 +90,12 @@
                     </div>
                 </div>
             </form>
+            
         </div>
+
+        <h1 class="h1">Important Information</h1>
+        <p>You can call us on (+234) 803 300 0122 | (+234) 805 745 4799 to place your order today.</p>
+
     </div>
     <!-- End Contact -->
 
