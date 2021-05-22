@@ -12,7 +12,8 @@
                     </li>
                     <li>
                         <i class="fa fa-phone fa-fw"></i>
-                        <a class="text-decoration-none" href="tel:08033000122">(+234) 803 300 0122</a>
+                        <a class="text-decoration-none" href="tel:08033000122">(+234) 803 300 0122 | <br/>
+                        (+234) 805 745 4799</a>
                     </li>
                     <li>
                         <i class="fa fa-envelope fa-fw"></i>
