@@ -1,3 +1,34 @@
+<?php
+
+    $home = "";
+    $about = "";
+    $shop = "";
+    $contact = "";
+    $faq = "";
+
+    switch($page) {
+        case 1:
+            $home = "text-red";
+            break;
+        case 2:
+            $about = "text-red";
+            break;
+        case 3:
+            $shop = "text-red";
+            break;
+        case 4:
+            $shop = "text-red";
+            break;
+        case 5:
+            $contact = "text-red";
+            break;
+        case 6:
+            $faq = "text-red";
+            break;
+    }
+
+?>
+
 <!-- Header -->
 <nav class="navbar navbar-expand-lg navbar-light shadow">
     <div class="container d-flex justify-content-between align-items-center">
@@ -14,19 +45,19 @@
             <div class="flex-fill">
                 <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link <?php echo $home; ?>" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
+                        <a class="nav-link <?php echo $about; ?>" href="about.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="shop.php">Shop</a>
+                        <a class="nav-link <?php echo $shop; ?>" href="shop.php">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact</a>
+                        <a class="nav-link <?php echo $contact; ?>" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="faq.php">FAQs</a>
+                        <a class="nav-link <?php echo $faq; ?>" href="faq.php">FAQs</a>
                     </li>
                 </ul>
             </div>
