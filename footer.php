@@ -40,8 +40,8 @@
                     <li><a class="text-decoration-none" href="index.php">Home</a></li>
                     <li><a class="text-decoration-none" href="about.php">About Us</a></li>
                     <li><a class="text-decoration-none" href="contact.php">Shop Locations</a></li>
-                    <li><a class="text-decoration-none" href="faq.php">FAQs</a></li>
                     <li><a class="text-decoration-none" href="contact.php">Contact</a></li>
+                    <li><a class="text-decoration-none" href="faq.php">FAQs</a></li>
                 </ul>
             </div>
 
