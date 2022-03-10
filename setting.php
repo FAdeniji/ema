@@ -35,10 +35,10 @@
     $products[0]->Category = "Chairs";
 
     $products[2]->Id = 3;
-    $products[2]->ProductName = 'CHIVALRY CHAIRS';
-    $products[2]->DisplayName = 'CHIVALRY CHAIRS';
-    $products[2]->ShortDescription = 'A plastic chair with no arm support';
-    $products[2]->LongDesription = 'Chiavaris have become the most popular choice for elegant, special event seating due to their use at large-scale formal events such as the Oscars and high-profile celebrity weddings. These days every bride wishes to seat her guests in this perfect event chair.';
+    $products[2]->ProductName = 'CHIVALRI CHAIRS';
+    $products[2]->DisplayName = 'CHIVALRI CHAIRS';
+    $products[2]->ShortDescription = 'A metal chair with no arm support';
+    $products[2]->LongDesription = 'Chivalri have become the most popular choice for elegant, special event seating due to their use at large-scale formal events such as the Oscars and high-profile celebrity weddings. These days every bride wishes to seat her guests in this perfect event chair.';
     $products[2]->UnitPrice = "3, 000.00";
     $products[2]->UnitNumber = 12;
     $products[2]->IsActive = true;
@@ -275,9 +275,9 @@
     $products[17]->Category = "Tables";
 
     $products[18]->Id = 19;
-    $products[18]->ProductName = 'METAL DRUM';
-    $products[18]->DisplayName = 'METAL DRUM';
-    $products[18]->ShortDescription = 'Metal Drum';
+    $products[18]->ProductName = 'PLASTIC DRUM';
+    $products[18]->DisplayName = 'PLASTIC DRUM';
+    $products[18]->ShortDescription = 'Plastic Drum';
     $products[18]->LongDesription = 'Your event will not be complete without cold drinks for your guests. Lets provide you with a way to keep the drinks cold.';
     $products[18]->UnitPrice = "500.00";
     $products[18]->UnitNumber = 1;

@@ -6,17 +6,30 @@
     $id = intval($_GET['id']);
     // echo "ID: " . $id;  
 
+    $usedIds = [];
     $ctr = 0;
     do {
-        $relatedid = mt_rand(1,8);
+        $relatedid = mt_rand(1, count($products) - 1);
 
-        if($relatedid <> $id) 
+        if(!in_array($relatedid, $usedIds)) 
         {
-            $dynamicProducts[$ctr] = SearchById($relatedid, $products);
+            $usedIds[$ctr] = $relatedid;
+            // $dynamicProducts[$ctr] = SearchById($relatedid, $products);
             $ctr = $ctr + 1;
         }
 
     } while ($ctr < 4);
+
+    // echo '<pre>'; print_r($usedIds); echo '</pre>';
+
+    $ct = 0;
+    foreach($usedIds as $pId) {
+        // echo $pId;
+        $dynamicProducts[$ct] = SearchById($id, $products);
+        $ct = $ct + 1;
+    }
+
+    // echo '<pre>'; print_r($dynamicProducts); echo '</pre>';
 
     // get current product
     $product = $products[$id - 1];
@@ -211,7 +224,7 @@
     <section class="py-5">
         <div class="container">
             <div class="row text-left p-2 pb-3">
-                <h4>Related Products</h4>
+                <h4>More Products</h4>
             </div>
 
             <!--Start Carousel Wrapper-->
@@ -222,37 +235,37 @@
                     // echo '<pre>'; print_r($dynamicProducts); echo '</pre>';
 
                     foreach ($dynamicProducts as $relatedProduct) {
-                        echo '
-                        <div class="p-2 pb-3">
-                            <div class="product-wap card rounded-0">
-                                <div class="card rounded-0">
-                                    <img class="card-img rounded-0 img-fluid" src="' . $relatedProduct->PictureUrl . '">
-                                    <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                        <ul class="list-unstyled">
-                                            <li><a class="btn btn-success text-white mt-2" href="shop-single.php?id=' . $relatedProduct->Id . '"><i class="far fa-eye"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <a href="shop-single.php" class="h3 text-decoration-none">' . $relatedProduct->ProductName . '</a>
-                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                        <li class="pt-2">
-                                            <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                            <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                            <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                            <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                            <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                        </li>
-                                    </ul>
-                                    <p class="text-left mb-0">N' . $relatedProduct->UnitPrice . '</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        ';
+                        // echo '
+                        // <div class="p-2 pb-3">
+                        //     <div class="product-wap card rounded-0">
+                        //         <div class="card rounded-0">
+                        //             <img class="card-img rounded-0 img-fluid" src="' . $relatedProduct->PictureUrl . '">
+                        //             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                        //                 <ul class="list-unstyled">
+                        //                     <li><a class="btn btn-success text-white mt-2" href="shop-single.php?id=' . $relatedProduct->Id . '"><i class="far fa-eye"></i></a></li>
+                        //                 </ul>
+                        //             </div>
+                        //         </div>
+                        //         <div class="card-body">
+                        //             <a href="shop-single.php" class="h3 text-decoration-none">' . $relatedProduct->ProductName . '</a>
+                        //             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                        //                 <li class="pt-2">
+                        //                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                        //                     <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                        //                     <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                        //                     <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                        //                     <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                        //                 </li>
+                        //             </ul>
+                        //             <p class="text-left mb-0"><b>N' . $relatedProduct->UnitPrice . '</b></a></p>
+                        //         </div>
+                        //     </div>
+                        // </div>
+                        // ';
                     }
 
                 ?>
-
+                <p>No related products now</p>
             </div>
 
         </div>
